@@ -3,12 +3,12 @@ package ver1;
 public class HelloWorld {
 	
 	public static void heyNow() {
-		String Msg = "Hey Now!";
-		System.out.println(Msg);
+		String msg = "Hey Now!";
+		System.out.println(msg);
 	}
 	
-	public static void whatFor(String com) {
-		System.out.println(com);
+	public static void whatFor(String command) {
+		System.out.println(command);
 		String reply = "What for?";
 		System.out.println(reply);
 	}
